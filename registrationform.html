@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aodh Ruadh 2023 Registration</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Registration form, fee">
+    <meta name="keywords" content="Registration, Fee, name, Age">
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+    <style>
+    body{
+    font-family: sans-serif;
+    background-image: url(../mywebsite/images/jersey2.png);
+    background-repeat: no-repeat;
+    Background-size: cover;
+    margin: 10px; }
+    
+    main {
+    margin: 15px 200px;
+    padding: 20px;
+    border: green 1px;
+    background: white;
+    min-height: 500px;
+}
+    header p{
+        font-style: italic;
+        text-align: center;
+        font-weight: 900;
+    }
+    .required {
+        font-weight:bold;
+        color:red;
+    }
+    
+    label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+    }
+
+    input {
+        margin-left: 1em;
+        margin-bottom: 5em;
+        width: 300px;}
+
+        input[type="checkbox"] {width; 15px;}
+        input[type="radio"] {width:10px}
+
+        #button, #reset {
+            margin-top: .5em;
+            width: 8em;
+            background-color: rgb(122, 245, 122);
+            border: 2px solid black;
+        }
+
+    </style>
+
+    
+</head>
+    <body>
+        <header>
+            <p> If you have any queries or problems while submiiting your registartion form please completed and submit</p>
+        </header>
+        <main>
+            <section>
+                <h3>Please enter the following information: (form action="hhtp:/foo.com" method="get")  </h3>
+                <form action="http:/foo.com" method="get">
+                <lable for="first_name">First Name:<span class="required">*</span></span> </lable>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <lable for="last_name">Last Name:<span class="required">*</span></lable>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <lable type="text">Email:<span class="required">*</span></label>
+                <input type="email" name="email" required placeholder="test@example.com"><br>
+                <lable for="gender">Gender:</lable>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender" name="gender" vaule="female"> Female
+                <input type="radio" id="gender" gender="radio" name="gender" value="other"> Other <br>
+                <lable for="Age_group"></lable>What Age Group are your registering for?:</lable>
+            <feildset>
+            <input type="checkbox" id="under10s"name="under10s" value="under10s" checked> Under10s <br>
+            <input type="checkbox" id="under12s" name="under12s" value="under12s" > Under12s <br>
+            <input type="checkbox" id="under14s"name="under14s" value="under14s" > Under14s <br>
+            <input type="checkbox" id="under16s"name="under16s" value="under16s" > Under10s <br>
+            <input type="checkbox" id="under21s"name="under21s" value="under21s" > Under21s <br>
+            <input type="checkbox" id="Seniors"name="Seniors" value="Seniors" > Seniors <br>
+        </feildset><br>
+        <label for="message">Query : </label>
+        <textarea cols="50" rows="6"
+        id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+        <input type="submit" name="submit" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+        <p style="margin-left: 138px"> <span class="required">*</span> <em>indicates a required field</em></p> 
+            </section>
+        </main>
+    </body>
+<html>
